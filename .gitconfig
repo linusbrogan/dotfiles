@@ -1,0 +1,28 @@
+[user]
+	email = git@linusbrogan.com
+	name = Linus Brogan
+[color]
+	ui = true
+[alias]
+	amend = commit --amend
+	bl = branch --list
+	cd = checkout
+	empty = commit --allow-empty -m
+	diffc = diff HEAD~ HEAD
+	diffls = diff --name-only
+	difflsc = diff --name-only HEAD~ HEAD
+	diffw = diff --ignore-all-space
+	diffwc = diff --ignore-all-space HEAD~ HEAD
+	git = !git
+	graph = log --graph --oneline --all
+	l = log --date=iso-strict
+	logls = log --oneline
+	ls = status
+	orphan = checkout --orphan
+	pusht = push --tags
+	pushup = push --set-upstream origin
+	sl = remote --verbose
+	sl = stash list
+	tl = tag --list
+[init]
+	defaultBranch = main
