@@ -160,7 +160,8 @@ set whitespace "»·"
 ## If you would like nano to have keybindings that are more "usual",
 ## such as ^O for Open, ^F for Find, ^H for Help, and ^Q for Quit,
 ## then uncomment these:
-bind ^W exit all
+bind ^Q exit all
+unbind ^W all
 bind F1 help all
 bind F1 exit help
 
