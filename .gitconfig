@@ -21,7 +21,7 @@
 	orphan = checkout --orphan
 	pusht = push --tags
 	pushup = push --set-upstream origin
-	sl = remote --verbose
+	rl = remote --verbose
 	sl = stash list
 	tl = tag --list
 [init]
