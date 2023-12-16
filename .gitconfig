@@ -4,15 +4,17 @@
 [color]
 	ui = true
 [alias]
-	amend = commit --amend
+	amend = commit --amend --no-edit
 	bl = branch --list
 	cd = checkout
+	dc = diff --cached
 	empty = commit --allow-empty -m
 	diffc = diff HEAD~ HEAD
 	diffls = diff --name-only
 	difflsc = diff --name-only HEAD~ HEAD
 	diffw = diff --ignore-all-space
 	diffwc = diff --ignore-all-space HEAD~ HEAD
+	g = graph
 	git = !git
 	graph = log --graph --oneline --all
 	l = log --date=iso-strict
