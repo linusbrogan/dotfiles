@@ -26,5 +26,6 @@
 	rl = remote --verbose
 	sl = stash list
 	tl = tag --list
+	unstage = restore --staged
 [init]
 	defaultBranch = main
